@@ -30,6 +30,7 @@ pip install ddddocr
 
 1. 将微信群的截图保存为 `last_screenshot`(Have done automatically)
 2. 配置 `os/screenshot` 的路径和参数（参考下面的配置示例）
+3. 请安装bluestacks5或其他安卓模拟器运行微信
 
 **使用**
 ------
