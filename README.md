@@ -1,6 +1,6 @@
 **抢红包自动化脚本**
 =======================
-
+最快抢红包速度：0.3278543s(网速计算在内)
 基于 OCR 和 PyAutoGUI 的 Python 脚本，用于抢红包。此项目由10G4余胜军徒儿开发，不会用请加微信：wangmianhao2019
 
 **功能**
@@ -28,14 +28,13 @@ pip install ddddocr
 **配置**
 ------
 
-1. 安装 `Tesseract-OCR` 引擎并设置环境变量：https://github.com/tesseract-ocr/tesseract/wiki
-2. 将微信群的截图保存为 `screenshot.png`
-3. 配置 `pytesseract` 的路径和参数（参考下面的配置示例）
+1. 将微信群的截图保存为 `last_screenshot`(Have done automatically)
+2. 配置 `os/screenshot` 的路径和参数（参考下面的配置示例）
 
 **使用**
 ------
 
-1. 在终端中运行脚本：`python redpacket.py`
+1. 在终端中运行脚本：`main.py`
 2. 脚本会自动识别红包并点击抢红包按钮
 
 **代码**
