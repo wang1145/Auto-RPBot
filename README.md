@@ -1,7 +1,7 @@
 **抢红包自动化脚本**
 =======================
 
-基于 OCR 和 PyAutoGUI 的 Python 脚本，用于抢红包。
+基于 OCR 和 PyAutoGUI 的 Python 脚本，用于抢红包。此项目由10G4余胜军徒儿开发，不会用请加微信：wangmianhao2019
 
 **功能**
 --------
@@ -12,9 +12,9 @@
 **依赖**
 --------
 
-* `pytesseract`（百度OCR引擎）
+* `ddddocr`（百度OCR引擎）
 * `pyautogui`
-* `Pillow`
+* `pypi`
 
 **安装依赖**
 -------------
