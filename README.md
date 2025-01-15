@@ -20,7 +20,9 @@
 -------------
 
 ```bash
-pip install pytesseract Pillow pyautogui
+pip install pyautogui
+pip install ddddocr
+
 ```
 
 **配置**
