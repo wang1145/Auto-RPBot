@@ -39,36 +39,14 @@ pip install pytesseract Pillow pyautogui
 **代码**
 -----
 
-```python
-import pytesseract
-from PIL import Image
-import pyautogui
-import time
-
-# 配置 Tesseract-OCR 的路径和参数
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-config = ('-l chi_sim --psm 11')
-
-# 读取截图
-image = Image.open('screenshot.png')
-text = pytesseract.image_to_string(image, config=config)
-
-# 识别红包
-if '红包' in text:
-    # 点击抢红包按钮
-    pyautogui.click(100, 200)
-else:
-    print('未发现红包')
-
-# 等待 5 秒钟
-time.sleep(5)
+请见main.py
 ```
 
 **注意**
 ------
 
 * 此脚本仅适用于微信群内的抢红包，其他场景可能需要调整代码。
-* 需要确保 `pyautogui` 和 `Pillow` 已经安装，否则脚本可能会报错。
+* 需要确保 `pyautogui` 和 `ddddocr` 已经安装，否则脚本可能会报错。
 * 请勿滥用此脚本。
 
-如果你想上传到 GitHub，你可以将 README 文件作为根目录下的文件，脚本放在 src 或 scripts 子目录下。
+
