@@ -1,4 +1,24 @@
-# 开源协议:CC0 public domain
+# MIT License
+#
+# Copyright (c) 2025 wang1145
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
 
 import ddddocr
 import time
@@ -7,6 +27,7 @@ from PIL import ImageGrab  # 导入ImageGrab模块，用于截取屏幕图像
 import numpy as np  # 导入numpy模块，用于处理图像数据
 import os
 import pathlib as pl
+pyautogui.FAILSAFE = False
 
 
 
@@ -55,7 +76,7 @@ class wx_red_pocket_bot:
     def open_pocket(self):
         pyautogui.moveTo(262,876)
         pyautogui.click()
-        time.sleep(0.4)
+        time.sleep(0.2)
         pyautogui.moveTo(273,704)
         pyautogui.click()
         print("抢到红包！")
@@ -63,13 +84,19 @@ class wx_red_pocket_bot:
         print("即将返回检测")
         pyautogui.moveTo(21,105)
         pyautogui.click()
+        pyautogui.moveTo(281,947)
+        pyautogui.click()
+        time.sleep(1)
 
 
     def main_loop(self):
         try:
             print("初始化中，请打开微信群......")
             time.sleep(1)
-            print("将大局逆转吧！")
+            print("此项目由 GitHub：wang1145/lllrmm 制作，开源协议为 MIT License，仓库地址：https://github.com/wang1145/Auto-RPBot，如有问题欢迎issue或request")
+            print(" ")
+            print("Copyright (c) 2025 wang1145")
+            print("scanning, please wait...")
 
             self.last_screenshot = ImageGrab.grab(bbox=monitor_region) # 初始化上一次截图
 
@@ -111,3 +138,6 @@ if __name__ == "__main__":
 
     bot = wx_red_pocket_bot(monitor_region)
     bot.main_loop()
+
+#21:55:54.370: [Auto-RPBot] git -c credential.helper= -c core.quotepath=false -c log.showSignature=false add --ignore-errors -A -f -- main.py
+#21:55:54.439: [Auto-RPBot] git -c credential.helper= -c core.quotepath=false -c log.showSignature=false commit -F C:\Users\Sam\AppData\Local\Temp\git-commit-msg-.txt "--author=wangsz192 <wangmianhao2020@163.com>" --
