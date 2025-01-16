@@ -1,13 +1,19 @@
-**抢红包自动化脚本**
+**抢红包自动化脚本** _(most finished)_
 =======================
 最快抢红包速度：0.3278543s(网速计算在内)
 基于 OCR 和 PyAutoGUI 的 Python 脚本，用于抢红包。此项目由10G4余胜军徒儿开发，不会用请加微信：wangmianhao2019
+
+**Common errors**
+*_ModuleNotFoundError: No module named 'sf'_:  Check if you have installed modules, check below.
 
 **功能**
 --------
 
 * 自动识别微信群内红包
 * 自动点击抢红包按钮
+<video src="https://private-user-images.githubusercontent.com/120712727/403840387-7ad0f088-2679-4beb-81fa-74adbcf88a44.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzcwMjY3MTYsIm5iZiI6MTczNzAyNjQxNiwicGF0aCI6Ii8xMjA3MTI3MjcvNDAzODQwMzg3LTdhZDBmMDg4LTI2NzktNGJlYi04MWZhLTc0YWRiY2Y4OGE0NC5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDExNlQxMTIwMTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MGRkNmEwYjQwZDk4ZWFlY2RkNDIzY2ZkYmNjYTVhNTU2MWI3NTc5MWZkNDA5MDY2ZmEyZTI5ZTk2NWY1YWYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.2fkfWwRCtP657tmU8KbM3ZuVWrSXKHGJFoXTvoDyMzY" data-canonical-src="https://private-user-images.githubusercontent.com/120712727/403840387-7ad0f088-2679-4beb-81fa-74adbcf88a44.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzcwMjY3MTYsIm5iZiI6MTczNzAyNjQxNiwicGF0aCI6Ii8xMjA3MTI3MjcvNDAzODQwMzg3LTdhZDBmMDg4LTI2NzktNGJlYi04MWZhLTc0YWRiY2Y4OGE0NC5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTE2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDExNlQxMTIwMTZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03MGRkNmEwYjQwZDk4ZWFlY2RkNDIzY2ZkYmNjYTVhNTU2MWI3NTc5MWZkNDA5MDY2ZmEyZTI5ZTk2NWY1YWYyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.2fkfWwRCtP657tmU8KbM3ZuVWrSXKHGJFoXTvoDyMzY" controls="controls" muted="muted" class="d-block rounded-bottom-2 border-top width-fit" style="max-height:640px; min-height: 200px">
+
+  </video>
 
 **依赖**
 --------
