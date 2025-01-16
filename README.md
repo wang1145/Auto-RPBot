@@ -3,6 +3,10 @@
 最快抢红包速度：0.3278543s(网速计算在内)
 基于 OCR 和 PyAutoGUI 的 Python 脚本，用于抢红包。此项目由10G4余胜军徒儿开发，不会用请加微信：wangmianhao2019
 
+**common errors**
+_ModuleNotFoundError: No module named 'sf'_:check if you have installed modules,check below.
+_PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. _:Add **pyautogui.FAILSAFE = False** to init of bot (after import)
+
 **功能**
 --------
 
